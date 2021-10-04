@@ -1,18 +1,21 @@
-body {
-	font-family: "Atlas Grotesk";
-	font-weight: 400;
+b, strong { /* replace with your selector */
+	font-family: "Atlas Grotesk Bold";
+	font-weight: normal;
 	font-style: normal;
-  font-size: 2rem;
+}
+i, em { /* replace with your selector */
+	font-family: "Atlas Grotesk Regular Italic";
+	font-weight: normal;
+	font-style: normal;
+}
+body { /* replace with your selector */
+	font-family: "Atlas Grotesk Regular";
+	font-weight: normal;
+	font-style: normal;
 }
 
-bold, strong, b {
-	font-weight: 700;
-	font-style: normal;
-}
-i, em {
-	font-weight: 400;
-	font-style: italic;
-}
+
+
 
 
 #wrapper {margin: 2rem;}
