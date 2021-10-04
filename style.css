@@ -1,14 +1,14 @@
-element { /* replace with your selector */
+element {
 	font-family: "Atlas Grotesk";
 	font-weight: 700;
 	font-style: normal;
 }
-i { /* replace with your selector */
+i {
 	font-family: "Atlas Grotesk";
 	font-weight: 400;
 	font-style: italic;
 }
-body { /* replace with your selector */
+body { 
 	font-family: "Atlas Grotesk";
 	font-weight: 400;
 	font-style: normal;
