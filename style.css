@@ -1,19 +1,19 @@
-element {
-	font-family: "Atlas Grotesk";
-	font-weight: 700;
-	font-style: normal;
-}
-i {
-	font-family: "Atlas Grotesk";
-	font-weight: 400;
-	font-style: italic;
-}
-body { 
+body {
 	font-family: "Atlas Grotesk";
 	font-weight: 400;
 	font-style: normal;
   font-size: 2rem;
 }
+
+bold, strong, b {
+	font-weight: 700;
+	font-style: normal;
+}
+i, em {
+	font-weight: 400;
+	font-style: italic;
+}
+
 
 #wrapper {margin: 2rem;}
 #manifesto {}
