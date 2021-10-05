@@ -10,6 +10,11 @@
     <link rel="stylesheet" href="https://webfonts.fontstand.com/WF-000544-ca7fe287d052be44ce22e5bc03c21569.css" type="text/css"/>
     <link rel="stylesheet" href="style.css?v=1.0">
 
+
+    <script src="granim.min.js"></script>
+    <script src="script.js"></script>
+
+
     <meta property="og:title" content="10 Rules of Generous Design">
     <meta property="og:type" content="website">
     <meta property="og:url" content="http://www.generousdesign.org">
@@ -18,6 +23,7 @@
 
   </head>
   <body>
+    <canvas id="canvas-complex"></canvas>
     <div id="wrapper">
         <p>Generous design is unknown.</p>
 
@@ -46,12 +52,36 @@
           <img src="10-rules-of-generous-design.png" alt="10 rules of generous design">
         </div>
 
-        <button type="button" name="button">Sign the Manifesto</button>
+        <button type="button" name="button">Sign the Manifesto</button> 
+        <a href="https://www.are.na/block/10388009">Save on Are.na</a>
 
         <p>Written by <a href="https://www.in-process.net">Nitzan Hermon</a> </p>
 
 
-    </div>
+      </div>
 
   </body>
+<script>
+var granimInstance = new Granim({
+  element: '#canvas-complex',
+  direction: 'left-right',
+  isPausedWhenNotInView: true,
+  states : {
+      "default-state": {
+          gradients: [
+              [
+                  { color: '#833ab4', pos: .2 },
+                  { color: '#fd1d1d', pos: .8 },
+                  { color: '#38ef7d', pos: 1 }
+              ], [
+                  { color: '#40e0d0', pos: 0 },
+                  { color: '#ff8c00', pos: .2 },
+                  { color: '#ff0080', pos: .75 }
+              ],
+          ]
+      }
+  }
+});
+
+</script>
 </html>
