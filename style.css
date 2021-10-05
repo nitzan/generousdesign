@@ -1,5 +1,5 @@
 body {
-	font-family: "Atlas Grotesk";
+	font-family: "Atlas Grotesk Regular";
 	font-weight: 400;
 	font-style: normal;
   font-size: 2rem;
@@ -7,15 +7,18 @@ body {
 }
 
 bold, strong, b  {
-	font-family: "Atlas Grotesk";
+	font-family: "Atlas Grotesk Bold";
 	font-weight: 700;
 	font-style: normal;
 }
 i {
-	font-family: "Atlas Grotesk";
+	font-family: "Atlas Grotesk italic";
 	font-weight: 400;
 	font-style: italic;
 }
+
+
+
 
 
 #wrapper {padding: 2rem;width: 750px;max-width: 100%;z-index: 10;background-color: rgba(255, 255, 255, 0.29);}
