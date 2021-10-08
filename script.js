@@ -1,20 +1,22 @@
 var granimInstance = new Granim({
   element: '#canvas-complex',
-  direction: 'left-right',
+  direction: 'radial',
   isPausedWhenNotInView: true,
   states : {
       "default-state": {
           gradients: [
               [
-                  { color: '#833ab4', pos: .2 },
-                  { color: '#fd1d1d', pos: .8 },
-                  { color: '#38ef7d', pos: 1 }
+                  { color: '#ff0472', pos: 26 },
+                  { color: '#ca9da6', pos: .8 },
+                  { color: '#ac9a76', pos: 1 }
               ], [
-                  { color: '#40e0d0', pos: 0 },
+                  { color: '#65c07c', pos: 0 },
                   { color: '#ff8c00', pos: .2 },
-                  { color: '#ff0080', pos: .75 }
+                  { color: '#fbc823', pos: .5 }
               ],
           ]
       }
   }
 });
+
+

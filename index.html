@@ -65,7 +65,13 @@
 <script>
 var granimInstance = new Granim({
   element: '#canvas-complex',
-  direction: 'left-right',
+  direction: 'custom',
+  customDirection: {
+  x0: '90%',
+  y0: '25px',
+  x1: '20%',
+  y1: '2px'
+},
   isPausedWhenNotInView: true,
   states : {
       "default-state": {
