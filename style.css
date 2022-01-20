@@ -1,12 +1,15 @@
+
 body{
 	font-family: "Atlas Grotesk Regular";
 	font-weight: 400;
 	font-style: normal;
 	font-size: 2rem;
-	color:rgba(2, 2, 2, 0.9);
+
 
 
 }
+
+
 
 bold, strong, b  {
 	font-family: "Atlas Grotesk Bold";
@@ -23,37 +26,34 @@ i {
 a {color:black;text-decoration: none;}
 
 
-#wrapper {padding: 2rem;width: 750px;max-width: 100%;z-index: 10;background-color: rgba(234, 98, 30, 0.1);}
-#manifesto {}
+#wrapper {padding: 2rem;z-index: 10;}
+#wrapper * {max-width: 100%;}
+#content {max-width: 100%;display: block;width: 700px;margin:0 auto;}
 
-button, input[type="email" i]  {font-size: 3rem;border: 0;background-color: transparent;margin: 2em 0 1em 0;
-	font-weight: bold;border: 5px solid black;border-radius: 5px;padding: 2rem;cursor: pointer;color:black;width:auto;text-align: center;}
+
+p {font-size: 2rem;}
+
+#content h1 {font-size: 3rem;font-family: "Atlas Grotesk Bold";line-height: 2em;;}
+
+
+#sign{margin: 2em 0 1em 0;text-align: center;}
+
+button, input[type="email"]  {font-family: "Atlas Grotesk Regular";
+	font-size: 1.2rem;
+	background-color: transparent;
+	border: 3px solid black;
+	border-radius: 5px;
+	padding: 2rem;cursor: pointer;
+	color:black;max-width:100%;text-align: center;}
+
+#bd-email {width: 80%;;}
 
 ::placeholder {color:black;}
-input:focus::placeholder {
-  color: transparent;
-}
+input:focus::placeholder {color: transparent;}
 button:hover{color:white;background: black;}
 
 img {max-width: 100%;}
 
+footer {margin: 2em 0 0 0 ;text-align: center;font-size: 0.6rem;}
 
-#canvas-complex {
-    position: fixed;
-    opacity:0.3;
-		z-index: 1;
-    display: block;
-    width: 70px;
-height: 70px;
-border-radius: 35px;
-    top: 10px;
-    right: 20px;
-
-transition: opacity 2s, height 15s, width 18s linear, border-radius 15s;
-
-}
-
-#canvas-complex:hover {opacity:1;transition: opacity 1s, height 80s, width 75s ease;height:2000px; width:2000px;border-radius: 1000px;}
-
-#cta button{}
-footer {font-size: 1rem;margin: 2em 0 0 0 ;}
+footer p {font-size: 1rem;}
